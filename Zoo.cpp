@@ -56,6 +56,3 @@ void Zoo::listAnimals() const {
 }
 
 // Method to calculate the average age of a specific type of animals
-template <typename T>
-double Zoo::averageAgeForType() const {
-}
