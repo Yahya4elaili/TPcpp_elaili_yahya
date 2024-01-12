@@ -45,6 +45,14 @@ int main() {
         std::cout << "No animal named Leo found." << std::endl;
     }
 
+   //the adding of an animal , and verification of the name .
+    if (myZoo.addAnimal(Boska)) {
+        std::cout << "inserted successully:" << std::endl;
+
+    } else {
+        std::cout << "Name already exists." << std::endl;
+    }
+
     // Calculate the average age of Mammals in the zoo
     double averageAge = myZoo.averageAgeForType<Mammal>();
     std::cout << "Average age of Mammals in the zoo: " << averageAge << " years" << std::endl;

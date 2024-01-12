@@ -3,12 +3,6 @@
 //
 
 #include "Reptile.h"
-//
-// Created by yahya on 1/12/2024.
-//
-
-
-
 #include "Mammal.h"
 
 // Default Constructor

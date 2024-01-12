@@ -11,6 +11,10 @@ Zoo::Zoo(const std::string& name) : name(name) {}
 
 // Method to add an animal
 bool Zoo::addAnimal(const std::shared_ptr<Animal>& animal) {
+    if (searchAnimalByName(animal->getName()) != nullptr) {
+        // An animal with the same name already exists, do not add
+        return false;
+    }
     if (animals.size() < MAX_CAPACITY) {
         animals.push_back(animal);
         return true;
@@ -55,4 +59,4 @@ void Zoo::listAnimals() const {
     }
 }
 
-// Method to calculate the average age of a specific type of animals
+

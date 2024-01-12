@@ -3,8 +3,7 @@
 //
 
 
-#ifndef BIRD_H
-#define BIRD_H
+
 
 #include "Animal.h"
 #include <string>
@@ -32,7 +31,6 @@ public:
     double getWingspan() const;
 
     // Overridden printInfo Method
-    virtual void printInfo() const override;
+    void printInfo() const override;
 };
 
-#endif // MAMMAL_H

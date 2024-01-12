@@ -1,7 +1,3 @@
-// Zoo.h
-#ifndef ZOO_H
-#define ZOO_H
-
 #include "Animal.h"
 #include <vector>
 #include <memory>
@@ -46,5 +42,3 @@ public:
 
     }
 };
-
-#endif // ZOO_H

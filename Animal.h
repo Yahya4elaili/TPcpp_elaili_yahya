@@ -2,8 +2,6 @@
 // Created by yahya on 1/12/2024.
 //
 
-#ifndef ANIMAL_H
-#define ANIMAL_H
 
 #include <string>
 #include <iostream>
@@ -59,5 +57,4 @@ public:
     virtual void printInfo() const;
 };
 
-#endif // ANIMAL_H
 

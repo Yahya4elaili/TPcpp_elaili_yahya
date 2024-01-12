@@ -3,8 +3,6 @@
 //
 
 
-#ifndef MAMMAL_H
-#define MAMMAL_H
 
 #include "Animal.h"
 #include <string>
@@ -34,5 +32,3 @@ public:
     // Overridden printInfo Method
     void printInfo() const override;
 };
-
-#endif // MAMMAL_H

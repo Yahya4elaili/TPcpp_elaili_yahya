@@ -10,9 +10,11 @@ public:
     using KNN<double>::KNN;
 
     // Overridden similarity measure method for double data type
-    virtual double similarityMeasure(const double& a, const double& b) const override {
-        return std::abs(a - b); // Absolute difference as a measure of similarity
-    }
+    double similarityMeasure(const double& a, const double& b) const override;
 };
+
+double KNNDouble::similarityMeasure(const double &a, const double &b) const {
+    return std::abs(a - b); // Absolute difference as a measure of similarity
+}
 
 

@@ -2,10 +2,6 @@
 // Created by yahya on 1/12/2024.
 //
 
-// KNN.h
-#ifndef KNN_H
-#define KNN_H
-
 #include <vector>
 #include <utility> // For std::pair
 
@@ -31,4 +27,3 @@ public:
     std::vector<T> findNearestNeighbours(const T& point) const;
 };
 
-#endif // KNN_H
